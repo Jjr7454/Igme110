@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-.grid {
+.webgrid {
     grid-template-columns: 300px 1em 200px;
     grid-template-rows: 100px 1em 100px;
 }
