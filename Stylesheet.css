@@ -13,13 +13,16 @@
 
 header {
     font-family: 'Dancing Script', cursive;
+    color: #e6f4f5;
     grid-row: 1/2;
     grid-column: 1/2;
     display: flex;
+    background-color: #508ac7;
 }
 
 nav {
     font-family: 'Dancing Script', cursive;
+    color: #e6f4f5;
     grid-row: 1/2;
     grid-column: 2/3;
     display: flex;
@@ -30,7 +33,7 @@ ul {
 }
 
 img {
-
+    width: 45%;
 }
 
 footer{
@@ -38,4 +41,6 @@ footer{
 }
 p {
     font-family: 'Roboto', sans-serif;
+    color: #e6f4f5;
+    background-color: #508ac7;
 }
