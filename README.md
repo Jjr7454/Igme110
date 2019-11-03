@@ -1,2 +1,2 @@
-# igme110
+# Igme110
 A repository for my web project
