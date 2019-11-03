@@ -1,19 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 * {
+    
     box-sizing: border-box;
 }
 
 .webgrid {
-    grid-template-columns: 300px 1em 200px;
-    grid-template-rows: 100px 1em 100px;
+    grid-template-columns: 300px 1fr 300px;
+    grid-template-rows: 100px 1fr 100px;
 }
 
 header {
+    font-family: 'Dancing Script', cursive;
     grid-row: 1/2;
     grid-column: 1/2;
     display: flex;
 }
 
 nav {
+    font-family: 'Dancing Script', cursive;
     grid-row: 1/2;
     grid-column: 2/3;
     display: flex;
@@ -21,4 +27,15 @@ nav {
 
 ul {
     display: inline-block;
+}
+
+img {
+
+}
+
+footer{
+    font-family: 'Dancing Script', cursive;
+}
+p {
+    font-family: 'Roboto', sans-serif;
 }
