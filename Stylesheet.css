@@ -2,31 +2,27 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 * {
-    
     box-sizing: border-box;
 }
 
 .webgrid {
-    grid-template-columns: 200px 1em 200px;
-    grid-template-rows: 100px 1em 100px;
+    display: grid;
 }
 
 header {
     font-family: 'Dancing Script', cursive;
     color: #e6f4f5;
     background-color: #508ac7;
-    grid-row: 1/2;
-    grid-column: 1/2;
-    display: flex;
-    padding-left: 25px;
+    text-align: center;
+    padding: 1px;
 }
+
 
 nav {
     font-family: 'Dancing Script', cursive;
     color: #e6f4f5;
-    grid-row: 1/2;
-    grid-column: 2/3;
-    display: flex;
+    background-color: #508ac7;
+    text-align: center;
 }
 
 ul {
@@ -34,21 +30,23 @@ ul {
 }
 
 img {
-    grid-row: 2/3;
-    grid-column: 2/3; 
-    width: 45%;
+    padding: 20px 0px;
+    display: block;
+    width: 55%;
+    margin: 0 auto;
 }
 
 p {
     font-family: 'Roboto', sans-serif;
     color: #e6f4f5;
     background-color: #508ac7;
-    width: 45%;
+    width: 55%;
+    margin: 0 auto;
+    padding: 5px;
 }
 
-footer{
-    grid-column: 1/2;
-    grid-row: 3/4;
+footer {
     font-family: 'Dancing Script', cursive;
     background-color: lightgray;
+    text-align: center;
 }
